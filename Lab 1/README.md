@@ -56,17 +56,13 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage the interaction with your interactive device, think about:
+The interaction happens wherever with a person who has any type of wallet with card pockets. Jeongmin may see that he uses his MTA card often but also often forgets to tuck the card back into his wallet after use. Jeongmin may decide that he wants to purchase a “Pocket-Mine”. The Pocket-Mine would be tucked into that specific pocket of the wallet where he usually keeps his MTA card. The Pocket-Mine is a bluetooth sensor that can be connected to an app on the smartphone.
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+So here is how the process would work. Jeongmin color codes the Pocket-Mine to be yellow to match the color of the MTA card.
+Jeongmin takes out his MTA card to enter the gate in the subway station, but he forgets to tuck the card back into his wallet after passing through. Then when he soon picks up his phone to check for any mail for messages while he is waiting for the train, he gets a yellow pop-up screen.
+It is then he realizes that he had forgotten to tuck his MTA card back into his pocket. Thank you, Pocket-Mine!
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+Each sensor can be color coded and linked to the app and placed in a wallet pocket for the card that is to be tracked. 
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
@@ -74,7 +70,8 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 \*\***Include a picture of your storyboard here**\*\*
 
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+![image](https://user-images.githubusercontent.com/89954387/132529892-c90049f6-d09b-41bd-a77d-9ba79c042da4.png)
+
 
 \*\***Summarize feedback you got here.**\*\*
 
