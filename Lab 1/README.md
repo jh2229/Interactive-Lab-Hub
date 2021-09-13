@@ -56,33 +56,40 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-The interaction happens wherever with a person who has any type of wallet with card pockets. Jeongmin may see that he uses his MTA card often but also often forgets to tuck the card back into his wallet after use. Jeongmin may decide that he wants to purchase a “Pocket-Mine”. The Pocket-Mine would be tucked into that specific pocket of the wallet where he usually keeps his MTA card. The Pocket-Mine is a bluetooth sensor that can be connected to an app on the smartphone.
+The interaction happens typically wherever a user, who has any type of wallet with card pockets, has to take out his card to pay for something. Jeongmin (the user) may see that he uses his MTA card often but also often forgets to tuck the card back into his wallet after use. The last card that he lost was the MTA card, and it was not the first time. So, Jeongmin may decide that he wants to purchase a “Pocket-Mine”. The Pocket-Mine is a bluetooth sensor that can be connected to an app on the smartphone. The Pocket-Mine would be tucked into that specific pocket of the wallet where he usually keeps his MTA card. 
 
 So here is how the process would work. Jeongmin color codes the Pocket-Mine to be yellow to match the color of the MTA card.
-Jeongmin takes out his MTA card to enter the gate in the subway station, but he forgets to tuck the card back into his wallet after passing through. Then when he soon picks up his phone to check for any mail for messages while he is waiting for the train, he gets a yellow pop-up screen.
+Jeongmin takes out his MTA card to enter the gate in the subway station, but he forgets to tuck the card back into his wallet after passing through. Then when he soon picks up his phone to check for any mail for messages while he is waiting for the train, but instead of the normal screen, his whole screen is yellow!
+
 It is then he realizes that he had forgotten to tuck his MTA card back into his pocket. Thank you, Pocket-Mine!
 
-Each sensor can be color coded and linked to the app and placed in a wallet pocket for the card that is to be tracked. 
+A Pocket-Mine can be color coded and linked to the app and placed in a wallet pocket for the card that is to be tracked.
+The benefit of the Pocket-Mine is that it is small and thin like a coin, so Jeongmin can easily buy multiple Pocket-Mines for multiple cards.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+Also, through the app, the user to customize the duration of the time the Pocket-Mine "allows" for an empty card pocket before the phone screen changes color.
 
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+If ever the app loses track of the sensor because the bluetooth connection is lost (e.g. the wallet is too far away from the pocket), then most likely the user will have lost the wallet, so the phone screen will change color again.
 
-\*\***Include a picture of your storyboard here**\*\*
+If the user decides to no longer use a card and keep a card pocket empty in the wallet, the user can remove the Pocket-Mine and use it for another card.
+
+**Storyboard
 
 ![image](https://user-images.githubusercontent.com/89954387/132529892-c90049f6-d09b-41bd-a77d-9ba79c042da4.png)
 
 
-\*\***Summarize feedback you got here.**\*\*
+**Feedback**\*\*
+- Add a light onto the wallet itself, so that even without the phone, the user may know that there is a misplaced card in the wallet.
 
+- Can the user customize the duration of time before the Pocket-Mine alerts the user? Is there a limit?
+- It may be useful to also add a vibration feature, especially to the wallet itself. Since the phone vibrates all the time, it may be more noticeable if the wallet vibrates. Otherwise, adding the vibrate feature to the phone app itself may be useful as well, since users may still place the phone in their pockets even if they may place their wallets in a bagpack or handbag.
+
+- What if the entire wallet goes missing? Does the alert system tak that into account?
+- With more and more people using digital wallets, how will this stay relevant?
+- Would you need to have a single space for each type of card (e.g. if you put two cards in the same pocket would it not work)?
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
-\*\***Are there things that seemed better on paper than acted out?**\*\*
-
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+I acted out the interaction and thought that not everyone will want to look at his or her phone. Maybe the user will be walking, in which case, the user is not likely to look into a phone. The vibration feature will also come in handy to notify the user that a card is misplaced.
 
 
 ## Part C. Prototype the device
