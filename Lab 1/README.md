@@ -92,8 +92,8 @@ Interaction video:
 https://drive.google.com/file/d/1PO8MolF8qDryvYIZwc84rihQrBwxeYzm/view?usp=sharing
 
 Thank you for your feedback:
-Rebecca Lassman
-Jiahao Dong
+Rebecca Lassman,
+Jiahao Dong,
 Joe Cera
 
 
@@ -187,10 +187,10 @@ https://drive.google.com/file/d/1fE2hI2kMkJtPVVW6cPqyFY-RBe6LnxVM/view?usp=shari
 ## Make it your own
 
 Thank you for your feedback:
-Rebecca Lassman
-Jiahao Dong
-Jiacheng Peng
-Neha Manjunath
+Rebecca Lassman,
+Jiahao Dong,
+Jiacheng Peng,
+Neha Manjunath,
 Joe Cera
 
 
