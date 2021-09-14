@@ -78,10 +78,6 @@ If the user decides to no longer use a card and keep a card pocket empty in the 
 
 
 **Feedback**\*\*
-- Add a light onto the wallet itself, so that even without the phone, the user may know that there is a misplaced card in the wallet.
-
-- Can the user customize the duration of time before the Pocket-Mine alerts the user? Is there a limit?
-- It may be useful to also add a vibration feature, especially to the wallet itself. Since the phone vibrates all the time, it may be more noticeable if the wallet vibrates. Otherwise, adding the vibrate feature to the phone app itself may be useful as well, since users may still place the phone in their pockets even if they may place their wallets in a bagpack or handbag.
 
 - What if the entire wallet goes missing? Does the alert system tak that into account?
 - With more and more people using digital wallets, how will this stay relevant?
@@ -94,37 +90,31 @@ I acted out the interaction and thought that not everyone will want to look at h
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
-\*\***Give us feedback on Tinkerbelle.**\*\*
+Feedback on Tinkerbelle: Thee instructions [here](https://github.com/FAR-Lab/tinkerbelle) were easy to follow. It was very convenient to have the TA provide a demonstration video on how to use Tinkerbelle. It was great to have the many shades and gradients of colors, since gradients of the colors can also be an indicator for an alert system.
 
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
+\*\***Wizarding Setup**\*\*
+https://drive.google.com/file/d/1-OHI-3QhIqKGIMdmag3ibWBxxKXfojEI/view?usp=sharing
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
-\*\***Show the follow-up work here.**\*\*
+\*\***Wizarding Interaction Draft**\*\*
+https://drive.google.com/file/d/1Sy73NkeuY1jSdNwPd5cyaVviNy33pQje/view?usp=sharing
 
 
 ## Part E. Costume the device
 
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
+**Sketch of the Device**
+![Sketch of Device](https://user-images.githubusercontent.com/89954387/133173136-5f906ae5-508e-44f8-b8f2-956a79088a15.png)
 
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
+A wallet or a card holder may already feel bulky for the user. Not only that the aesthetics of a wallet must not be compromised.
+Therefore, it is important that the Pocket-Mine has to minimally affect the shape or the weight of the wallet, even if there are multiple Pocket-Mines installed in the wallet.
 
-\*\***Include sketches of what your device might look like here.**\*\*
-
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-
+**Final costume design**
+![image](https://user-images.githubusercontent.com/89954387/133173887-0a254e14-007a-4fe9-9e2a-9041316ae02e.png)
+The middle object in the image that resembles a coin is the costume design for the Pocket-Mine.
+It was constructed with a dime coin and paper tape.
 
 ## Part F. Record
 
@@ -132,9 +122,12 @@ Think about the setting of the device: is the environment a place where the devi
 
 https://drive.google.com/file/d/1PO8MolF8qDryvYIZwc84rihQrBwxeYzm/view?usp=sharing
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
+Thank you for your feedback:
+Rebecca Lassman
+Jiahao Dong
+Jiacheng Peng
+Neha Manjunath
+Joe Cera
 
 
 # Staging Interaction, Part 2 
@@ -142,17 +135,24 @@ Be generous in acknowledging their contributions! And also recognizing any other
 This describes the second week's work for this lab activity.
 
 
-## Prep (to be done before Lab on Wednesday)
+## Prep 
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+\*\***Feedback**\*\*
 
-\*\***Summarize feedback from your partners here.**\*\*
+- Add a light onto the wallet itself, so that even without the phone, the user may know that there is a misplaced card in the wallet.
+
+- Can the user customize the duration of time before the Pocket-Mine alerts the user? Is there a limit?
+- It may be useful to also add a vibration feature, especially to the wallet itself. Since the phone vibrates all the time, it may be more noticeable if the wallet vibrates. Otherwise, adding the vibrate feature to the phone app itself may be useful as well, since users may still place the phone in their pockets even if they may place their wallets in a bagpack or handbag.
+
+- What if the entire wallet goes missing? Does the alert system tak that into account?
+- With more and more people using digital wallets, how will this stay relevant?
+- Would you need to have a single space for each type of card (e.g. if you put two cards in the same pocket would it not work)?
 
 ## Make it your own
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
-3) We will be grading with an emphasis on creativity. 
+The most common thread in the feedback was that a colored phone screen may not be sufficient for some users to notice, because they may not look in their phones as frequently as others. An additional feature that was recommended was the vibration feature.
 
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+The idea would be to enable the vibration feature in the app, so that alert system would comprise both the light and the vibration.
+
+Accordingly, the vibration feature is demonstrated in the new interaction video.
+https://drive.google.com/file/d/1fE2hI2kMkJtPVVW6cPqyFY-RBe6LnxVM/view?usp=sharing
