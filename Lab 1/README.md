@@ -100,7 +100,7 @@ https://drive.google.com/file/d/1Sy73NkeuY1jSdNwPd5cyaVviNy33pQje/view?usp=shari
 ## Part E. Costume the device
 
 **Sketch of the Device**
-![Sketch of Device](https://user-images.githubusercontent.com/89954387/133173136-5f906ae5-508e-44f8-b8f2-956a79088a15.png)
+![Sketch of Device](https://user-images.githubusercontent.com/89954387/133177002-40eadebf-49f0-4183-8818-1fffa0b456eb.png)
 
 A wallet or a card holder may already feel bulky for the user. Not only that the aesthetics of a wallet must not be compromised.
 Therefore, it is important that the Pocket-Mine has to minimally affect the shape or the weight of the wallet, even if there are multiple Pocket-Mines installed in the wallet.
@@ -187,7 +187,7 @@ Nothing else changed except for the fact the addition of the vibration feature o
 ## Costume the device
 
 **Sketch of the Device**
-![Sketch of Device](https://user-images.githubusercontent.com/89954387/133173136-5f906ae5-508e-44f8-b8f2-956a79088a15.png)
+![Sketch of Device](https://user-images.githubusercontent.com/89954387/133177120-f50a4801-2cda-47a1-9b0b-d5b7ddb8b3b8.png)
 
 The device itself is the same, because it is not the device that vibrates, but the phone.
 
