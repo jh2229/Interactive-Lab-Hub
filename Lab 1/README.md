@@ -66,12 +66,6 @@ It is then he realizes that he had forgotten to tuck his MTA card back into his 
 A Pocket-Mine can be color coded and linked to the app and placed in a wallet pocket for the card that is to be tracked.
 The benefit of the Pocket-Mine is that it is small and thin like a coin, so Jeongmin can easily buy multiple Pocket-Mines for multiple cards.
 
-Also, through the app, the user to customize the duration of the time the Pocket-Mine "allows" for an empty card pocket before the phone screen changes color.
-
-If ever the app loses track of the sensor because the bluetooth connection is lost (e.g. the wallet is too far away from the pocket), then most likely the user will have lost the wallet, so the phone screen will change color again.
-
-If the user decides to no longer use a card and keep a card pocket empty in the wallet, the user can remove the Pocket-Mine and use it for another card.
-
 **Storyboard
 
 ![image](https://user-images.githubusercontent.com/89954387/132529892-c90049f6-d09b-41bd-a77d-9ba79c042da4.png)
@@ -85,12 +79,12 @@ If the user decides to no longer use a card and keep a card pocket empty in the 
 
 ## Part B. Act out the Interaction
 
-I acted out the interaction and thought that not everyone will want to look at his or her phone. Maybe the user will be walking, in which case, the user is not likely to look into a phone. The vibration feature will also come in handy to notify the user that a card is misplaced.
+I acted out the interaction and the customized colored screen was enough for me to notice something was up, not too dissimilar to the effect of the "Blue Screen of Death" on a PC. I thought that not everyone will want to look at his or her phone. Maybe the user will be walking, in which case, the user is not likely to look into a phone. The vibration feature will also come in handy to notify the user that a card is misplaced.
 
 
 ## Part C. Prototype the device
 
-Feedback on Tinkerbelle: Thee instructions [here](https://github.com/FAR-Lab/tinkerbelle) were easy to follow. It was very convenient to have the TA provide a demonstration video on how to use Tinkerbelle. It was great to have the many shades and gradients of colors, since gradients of the colors can also be an indicator for an alert system.
+Feedback on Tinkerbelle: The instructions [here](https://github.com/FAR-Lab/tinkerbelle) were easy to follow. It was very convenient to have the TA provide a demonstration video on how to use Tinkerbelle. It was great to have the many shades and gradients of colors, since gradients of the colors can also be an indicator for an alert system.
 
 
 ## Part D. Wizard the device
@@ -117,16 +111,12 @@ The middle object in the image that resembles a coin is the costume design for t
 It was constructed with a dime coin and paper tape.
 
 ## Part F. Record
-
-\*\***Take a video of your prototyped interaction.**\*\*
-
+Interaction video:
 https://drive.google.com/file/d/1PO8MolF8qDryvYIZwc84rihQrBwxeYzm/view?usp=sharing
 
 Thank you for your feedback:
 Rebecca Lassman
 Jiahao Dong
-Jiacheng Peng
-Neha Manjunath
 Joe Cera
 
 
@@ -148,11 +138,80 @@ This describes the second week's work for this lab activity.
 - With more and more people using digital wallets, how will this stay relevant?
 - Would you need to have a single space for each type of card (e.g. if you put two cards in the same pocket would it not work)?
 
-## Make it your own
 
+## Plan 
+
+The interaction happens typically wherever a user, who has any type of wallet with card pockets, has to take out his card to pay for something. Jeongmin (the user) may see that he uses his MTA card often but also often forgets to tuck the card back into his wallet after use. The last card that he lost was the MTA card, and it was not the first time. So, Jeongmin may decide that he wants to purchase a “Pocket-Mine”. The Pocket-Mine is a bluetooth sensor that can be connected to an app on the smartphone. The Pocket-Mine would be tucked into that specific pocket of the wallet where he usually keeps his MTA card. 
+
+So here is how the process would work. Jeongmin color codes the Pocket-Mine to be yellow to match the color of the MTA card.
+Jeongmin takes out his MTA card to enter the gate in the subway station, but he forgets to tuck the card back into his wallet after passing through. Then when he soon picks up his phone to check for any mail for messages while he is waiting for the train, but instead of the normal screen, his whole screen is yellow!
+
+It is then he realizes that he had forgotten to tuck his MTA card back into his pocket. Thank you, Pocket-Mine!
+
+A Pocket-Mine can be color coded and linked to the app and placed in a wallet pocket for the card that is to be tracked.
+The benefit of the Pocket-Mine is that it is small and thin like a coin, so Jeongmin can easily buy multiple Pocket-Mines for multiple cards.
+
+Also, through the app, the user to customize the duration of the time the Pocket-Mine "allows" for an empty card pocket before the phone screen changes color.
+
+If ever the app loses track of the sensor because the bluetooth connection is lost (e.g. the wallet is too far away from the pocket), then most likely the user will have lost the wallet, so the phone screen will change color again.
+
+If the user decides to no longer use a card and keep a card pocket empty in the wallet, the user can remove the Pocket-Mine and use it for another card.
+
+
+**Storyboard
+![Lab 1 Part 2 Storyboard](https://user-images.githubusercontent.com/89954387/133176090-25bb0672-6939-45a1-bdbc-b8bed7d400d8.png)
+
+## Act out the Interaction
+
+On the second time around, based on the feedback, I thought that not everyone will want to look at his or her phone. Maybe the user will be walking, in which case, the user is not likely to look into a phone. The vibration feature will also come in handy to notify the user that a card is misplaced.
+
+The combination of the vibration feature and the colored screen definitely signalled that it was not a call or a message, but a misplaced card alert.
+
+
+## Prototype the device
+
+Nothing else changed except for the fact the addition of the vibration feature on the phone app.
+
+
+## Wizard the device
+
+\*\***Wizarding Setup**\*\*
+https://drive.google.com/file/d/1-OHI-3QhIqKGIMdmag3ibWBxxKXfojEI/view?usp=sharing
+
+
+\*\***Wizarding Interaction Draft**\*\*
+https://drive.google.com/file/d/1Sy73NkeuY1jSdNwPd5cyaVviNy33pQje/view?usp=sharing
+
+Nothing else changed except for the fact the addition of the vibration feature on the phone app.
+
+## Costume the device
+
+**Sketch of the Device**
+![Sketch of Device](https://user-images.githubusercontent.com/89954387/133173136-5f906ae5-508e-44f8-b8f2-956a79088a15.png)
+
+The device itself is the same, because it is not the device that vibrates, but the phone.
+
+**Final costume design**
+![image](https://user-images.githubusercontent.com/89954387/133173887-0a254e14-007a-4fe9-9e2a-9041316ae02e.png)
+The middle object in the image that resembles a coin is the costume design for the Pocket-Mine.
+It was constructed with a dime coin and paper tape.
+
+## Part F. Record
 The most common thread in the feedback was that a colored phone screen may not be sufficient for some users to notice, because they may not look in their phones as frequently as others. An additional feature that was recommended was the vibration feature.
 
 The idea would be to enable the vibration feature in the app, so that alert system would comprise both the light and the vibration.
 
 Accordingly, the vibration feature is demonstrated in the new interaction video.
 https://drive.google.com/file/d/1fE2hI2kMkJtPVVW6cPqyFY-RBe6LnxVM/view?usp=sharing
+
+
+## Make it your own
+
+Thank you for your feedback:
+Rebecca Lassman
+Jiahao Dong
+Jiacheng Peng
+Neha Manjunath
+Joe Cera
+
+
