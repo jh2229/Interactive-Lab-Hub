@@ -199,6 +199,8 @@ It was constructed with a dime coin and paper tape.
 ## Part F. Record
 The most common thread in the feedback was that a colored phone screen may not be sufficient for some users to notice, because they may not look in their phones as frequently as others. An additional feature that was recommended was the vibration feature.
 
+Interestingly, no one made a mention of the need of sound. At least according to those who gave feedback, they didn't think sound was noticeable enough, especially in an outdoor setting, which is where most of the relevant interaction of misplacing cards would happen.
+
 The idea would be to enable the vibration feature in the app, so that alert system would comprise both the light and the vibration.
 
 Accordingly, the vibration feature is demonstrated in the new interaction video.
