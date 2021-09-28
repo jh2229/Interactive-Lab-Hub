@@ -221,7 +221,7 @@ I made some edits to the first sketch accordingly to the feedback.
 I thought that adding the sun's position throughout the day would be an intuitive feature to indicate time that is not the digital or analog clock display.
 On a personal note, I find that I am more productive when I have a list of tasks to do. So I added a feature reflecting that.
 
-Lab 2 Part 2Demo:
+Lab 2 Part 2 Demo:
 https://drive.google.com/file/d/15lVlI1HMZhJAKwJC7FRwJMcntA_jVfuD/view?usp=sharing
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
