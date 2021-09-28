@@ -205,9 +205,17 @@ https://drive.google.com/file/d/13XBgdTfCi7DTxjx4GQ-r-8HiB0W1z21c/view?usp=shari
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
+Feedback:
+- Make use of the buttons to show other displays of time
+- Make use of the buttons for other features that may be more relevant to the user at that particular time of day.
+- Make use of colors relevant to the time of day would make the clock more intuitive. 
+
 # Lab 2 Part 2
 
 Pull Interactive Lab Hub updates to your repo.
+
+Lab 2 Part 2Demo:
+https://drive.google.com/file/d/15lVlI1HMZhJAKwJC7FRwJMcntA_jVfuD/view?usp=sharing
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
 
@@ -215,4 +223,7 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
-
+Thank you for your feedback!
+Jiejun Tian (jt587)
+victoriacyzhang
+JoeD016
