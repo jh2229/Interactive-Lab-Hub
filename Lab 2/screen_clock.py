@@ -69,45 +69,96 @@ backlight.value = True
 #x= 0
 #y= 0
 temp=0
+bd=28 #bar division factor
+bs=width/bd # bar separation factor
+bh=height/59 # bar height factor
+
+
+#Button Setup
+backlight = digitalio.DigitalInOut(board.D22)
+backlight.switch_to_output()
+backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
 while True & int(strftime("%H%M%S"))!=2355959:
     stnd = int(strftime("%S")) # Hour to be the standard position
     stnd_m = int(strftime("%M"))
     stnd_h = int(strftime("%H"))
     if stnd_h >12:
         stnd_h = stnd_h-12
-    
-    sin_x1= math.sin(-2*3.14/60*stnd)*60+120
-    cos_y1= math.cos(-2*3.14/60*stnd)*60+67
+        color = (100+stnd_h*20, 0, 0) # 1PM-5PM = Red
+        if stnd_h > 5:
+            color = (0,0,100+stnd_h*20) # 6PM-12AM = Blue
+    else:
+        color = (0, 100+stnd_h*20, 0) # 1AM-5AM = Green
+        if stnd_h> 5:
+            color = (100+stnd_h*20, 100+stnd_h*20, 0) #6AM-12PM = Yellow
+        
+            
+    sin_y1= -math.sin(2*3.14/48*int(strftime("%H")))*100+135
+    cos_x1= -math.cos(2*3.14/48*int(strftime("%H")))*60+120
+    print(cos_x1, sin_y1)
+    print(width, height)
+    print (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
+    print("\r", end="", flush=True)
+    #if buttonA.value and buttonB.value:
+    #    backlight.value = False  # turn off backlight
+    #else:
+    #    backlight.value = True  # turn on backlight
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        #draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        while buttonB.value and not buttonA.value: #Visualize Rotating Sun
+
+            draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
+            draw.regular_polygon((cos_x1, sin_y1, 30), n_sides=20, rotation =0, fill= (255,0,0), outline=0)
+            disp.image(image, rotation)
+            
+            #print (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
+            #print("\r", end="", flush=True)
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+            
+        draw.text((0, 0), 'Good Morning', font=font, fill="#FFFFFF")
+        disp.image(image, rotation)
+    #if not buttonA.value and not buttonB.value:  # none pressed
+        #display.fill(color565(0, 255, 0))  # green
 
     # Draw a black filled box to clear the image.
-    #draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
     
-    if stnd_h <= 0:
-        draw.rectangle((width/24, 0, width/24*2, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
+    #draw.rectangle((width-2, 0, width, height), outline=0, fill=color565(0,0,0))
+    #disp.fill(color565(255, 255, 255))
+
+    
+    if stnd_h >= 0:
+        draw.rectangle((0, 0, width/bd*2, stnd_m*bh), outline=0, fill= color)
     if stnd_h >0:
-        draw.rectangle((width/24*2, 0, width/24*4, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
+        draw.rectangle((width/bd*2, 0, width/bd*4, stnd_m*bh), outline=0, fill=color)
     if stnd_h >1:
-        draw.rectangle((width/24*4, 0, width/24*6, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
+        draw.rectangle((width/bd*4, 0, width/bd*6, stnd_m*bh), outline=0, fill=color)
     if stnd_h >2:
-        draw.rectangle((width/24*6, 0, width/24*8, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
+        draw.rectangle((width/bd*6, 0, width/bd*8, stnd_m*bh), outline=0, fill=color)
     if stnd_h >3:
-        draw.rectangle((width/24*8, 0, width/24*10, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
+        draw.rectangle((width/bd*8, 0, width/bd*10, stnd_m*bh), outline=0, fill=color)
     if stnd_h >4:
-        draw.rectangle((width/24*10, 0, width/24*12, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
+        draw.rectangle((width/bd*10+bs, 0, width/bd*12+bs, stnd_m*bh), outline=0, fill=color)
     if stnd_h >5:
-        draw.rectangle((width/24*12, 0, width/24*14, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
+        draw.rectangle((width/bd*12+bs, 0, width/bd*14+bs, stnd_m*bh), outline=0, fill=color)
     if stnd_h >6:
-        draw.rectangle((width/24*14, 0, width/24*16, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
+        draw.rectangle((width/bd*14+bs, 0, width/bd*16+bs, stnd_m*bh), outline=0, fill=color)
     if stnd_h >7:
-        draw.rectangle((width/24*16, 0, width/24*2*18, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))        
+        draw.rectangle((width/bd*16+bs, 0, width/bd*18+bs, stnd_m*bh), outline=0, fill=color)        
     if stnd_h >8:
-        draw.rectangle((width/24*18, 0, width/24*2*20, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
+        draw.rectangle((width/bd*18+bs, 0, width/bd*20+bs, stnd_m*bh), outline=0, fill=color)
     if stnd_h >9:
-        draw.rectangle((width/24*20, 0, width/24*2*22, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
-    if stnd_h >10:
-        draw.rectangle((width/24*22, 0, width/24*2*24, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4))
-    if stnd_h >11:
-        draw.rectangle((width/24*22, 0, width/24*2*24, stnd_m*4), outline=0, fill=color565(stnd*4,stnd*4,stnd*4)) 
+        draw.rectangle((width/bd*20+bs*2, 0, width/bd*22+bs*2, stnd_m*bh), outline=0, fill=color)
+    #if stnd_h >10:
+    #    draw.rectangle((width/bd*22+bs*2, 0, width/bd*24+bs*2, stnd_m*bh), outline=0, fill=color)
+    #if stnd_h >11:
+    #    draw.rectangle((width/bd*24+bs*2, 0, width/bd*26+bs*2, stnd_m*bh), outline=0, fill=color) 
     #draw.ellipse([(stnd*4, 135-stnd*2-20),(stnd*4+20, 135-stnd*2)], fill=100, width=20)
     
     #draw.regular_polygon((sin_x1, cos_y1, 30), n_sides=12, rotation =0, fill= stnd*16, outline=0)
