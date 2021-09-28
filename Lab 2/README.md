@@ -214,6 +214,13 @@ Feedback:
 
 Pull Interactive Lab Hub updates to your repo.
 
+Sketch 2:
+![image](https://user-images.githubusercontent.com/89954387/135078186-357b492d-6841-4fa3-a943-8c98c780429c.png)
+
+I made some edits to the first sketch accordingly to the feedback.
+I thought that adding the sun's position throughout the day would be an intuitive feature to indicate time that is not the digital or analog clock display.
+On a personal note, I find that I am more productive when I have a list of tasks to do. So I added a feature reflecting that.
+
 Lab 2 Part 2Demo:
 https://drive.google.com/file/d/15lVlI1HMZhJAKwJC7FRwJMcntA_jVfuD/view?usp=sharing
 
