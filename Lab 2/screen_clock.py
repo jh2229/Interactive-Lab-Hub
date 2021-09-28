@@ -122,6 +122,11 @@ while True & int(strftime("%H%M%S"))!=2355959:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
             
         draw.text((0, 0), 'Good Morning', font=font, fill="#FFFFFF")
+        draw.text((0, font.size), '1. Breakfast', font=font, fill="#FFFFFF")
+        draw.text((0, font.size*2), '2. Shower', font=font, fill="#FFFFFF")
+        draw.text((0, font.size*3), '3. Shave', font=font, fill="#FFFFFF")
+        draw.text((0, font.size*4), '4. Brush Teeth', font=font, fill="#FFFFFF")
+        draw.text((0, font.size*5), '5. Go to class', font=font, fill="#FFFFFF")
         disp.image(image, rotation)
     #if not buttonA.value and not buttonB.value:  # none pressed
         #display.fill(color565(0, 255, 0))  # green
@@ -133,31 +138,31 @@ while True & int(strftime("%H%M%S"))!=2355959:
     #disp.fill(color565(255, 255, 255))
 
     
-    if stnd_h >= 0:
+    if stnd_h > 0:
         draw.rectangle((0, 0, width/bd*2, stnd_m*bh), outline=0, fill= color)
-    if stnd_h >0:
-        draw.rectangle((width/bd*2, 0, width/bd*4, stnd_m*bh), outline=0, fill=color)
     if stnd_h >1:
-        draw.rectangle((width/bd*4, 0, width/bd*6, stnd_m*bh), outline=0, fill=color)
+        draw.rectangle((width/bd*2, 0, width/bd*4, stnd_m*bh), outline=0, fill=color)
     if stnd_h >2:
-        draw.rectangle((width/bd*6, 0, width/bd*8, stnd_m*bh), outline=0, fill=color)
+        draw.rectangle((width/bd*4, 0, width/bd*6, stnd_m*bh), outline=0, fill=color)
     if stnd_h >3:
-        draw.rectangle((width/bd*8, 0, width/bd*10, stnd_m*bh), outline=0, fill=color)
+        draw.rectangle((width/bd*6, 0, width/bd*8, stnd_m*bh), outline=0, fill=color)
     if stnd_h >4:
-        draw.rectangle((width/bd*10+bs, 0, width/bd*12+bs, stnd_m*bh), outline=0, fill=color)
+        draw.rectangle((width/bd*8, 0, width/bd*10, stnd_m*bh), outline=0, fill=color)
     if stnd_h >5:
-        draw.rectangle((width/bd*12+bs, 0, width/bd*14+bs, stnd_m*bh), outline=0, fill=color)
+        draw.rectangle((width/bd*10+bs, 0, width/bd*12+bs, stnd_m*bh), outline=0, fill=color)
     if stnd_h >6:
-        draw.rectangle((width/bd*14+bs, 0, width/bd*16+bs, stnd_m*bh), outline=0, fill=color)
+        draw.rectangle((width/bd*12+bs, 0, width/bd*14+bs, stnd_m*bh), outline=0, fill=color)
     if stnd_h >7:
-        draw.rectangle((width/bd*16+bs, 0, width/bd*18+bs, stnd_m*bh), outline=0, fill=color)        
+        draw.rectangle((width/bd*14+bs, 0, width/bd*16+bs, stnd_m*bh), outline=0, fill=color)
     if stnd_h >8:
-        draw.rectangle((width/bd*18+bs, 0, width/bd*20+bs, stnd_m*bh), outline=0, fill=color)
+        draw.rectangle((width/bd*16+bs, 0, width/bd*18+bs, stnd_m*bh), outline=0, fill=color)        
     if stnd_h >9:
+        draw.rectangle((width/bd*18+bs, 0, width/bd*20+bs, stnd_m*bh), outline=0, fill=color)
+    if stnd_h >10:
         draw.rectangle((width/bd*20+bs*2, 0, width/bd*22+bs*2, stnd_m*bh), outline=0, fill=color)
-    #if stnd_h >10:
-    #    draw.rectangle((width/bd*22+bs*2, 0, width/bd*24+bs*2, stnd_m*bh), outline=0, fill=color)
-    #if stnd_h >11:
+    if stnd_h >11:
+        draw.rectangle((width/bd*22+bs*2, 0, width/bd*24+bs*2, stnd_m*bh), outline=0, fill=color)
+    #if stnd_h >12:
     #    draw.rectangle((width/bd*24+bs*2, 0, width/bd*26+bs*2, stnd_m*bh), outline=0, fill=color) 
     #draw.ellipse([(stnd*4, 135-stnd*2-20),(stnd*4+20, 135-stnd*2)], fill=100, width=20)
     
@@ -169,7 +174,7 @@ while True & int(strftime("%H%M%S"))!=2355959:
     #draw.rectangle((0, 0, width, 80), outline=0, fill=50)
     #x+=.01
     #y+=.01
-    temp+=1
+    #temp+=1
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     #print (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
     #print("\r", end="", flush=True)
