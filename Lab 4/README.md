@@ -174,11 +174,23 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
-
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+SKETCHES + QUESTIONS
+Sketch 1
+![image](https://user-images.githubusercontent.com/89954387/139002181-428afb08-7fcc-4070-99f8-a9d53f5676b4.png)
+Sketch 2
+![image](https://user-images.githubusercontent.com/89954387/139002205-f05da0bd-09af-4c35-b9c9-6f9e7e0b6ac7.png)
+Sketch 3
+![image](https://user-images.githubusercontent.com/89954387/139002252-1c4011b0-633e-44f2-a676-148f76a6e5d3.png)
+Sketch 4
+![image](https://user-images.githubusercontent.com/89954387/139002262-d500f99d-3c64-435d-a3fd-6c35942e8988.png)
+Sketch 5
+![image](https://user-images.githubusercontent.com/89954387/139002277-9a997187-c5bf-4a96-a927-8391b0a3ab32.png)
+
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
-
+CHOSEN: Sketch 2 
+![image](https://user-images.githubusercontent.com/89954387/139002205-f05da0bd-09af-4c35-b9c9-6f9e7e0b6ac7.png)
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -219,16 +231,54 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
-
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+Design Sketch + Questions
+Design Sketch 1
+![image](https://user-images.githubusercontent.com/89954387/139002662-514a9f2e-e416-4646-99bc-f2b3720e2878.png)
+Design Sketch 2
+![image](https://user-images.githubusercontent.com/89954387/139002674-82612177-ccf3-4c0e-acb8-8083aa5d8bd4.png)
+Design Sketch 3
+![image](https://user-images.githubusercontent.com/89954387/139002689-d70c4547-0e68-4507-bcbb-6962d083d8bb.png)
+Design Sketch 4
+![image](https://user-images.githubusercontent.com/89954387/139002723-9c7fc247-1729-420b-a78e-6f88655933c0.png)
+Design Sketch 5
+![image](https://user-images.githubusercontent.com/89954387/139002817-3ce95915-e004-4f34-80ac-818b10546d8a.png)
+
+
+
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+Design Sketch 5
+![image](https://user-images.githubusercontent.com/89954387/139002817-3ce95915-e004-4f34-80ac-818b10546d8a.png)
+
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+- The design for a distance alarm system needs to be light, small, portable.
+- The design is to be used with a computer, so it was ergonomic for the design to be powered by the computer.
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+![image](https://user-images.githubusercontent.com/89954387/139004262-f2ef54cd-2592-49f6-ab18-b217f2903598.png)
+![image](https://user-images.githubusercontent.com/89954387/139004276-3dbf5a44-5d59-4f1e-8845-443fac8c8f80.png)
+![image](https://user-images.githubusercontent.com/89954387/139004185-82b4e0bc-f694-42ec-bc02-2795da6e743d.png)
+
+Materials: Cardboard, paper tape, proximity sensor, LED button, cables, Raspberry Pi 4
+
+Interaction with rough prototype
+https://drive.google.com/file/d/1UmF_Wr7H6-3QozcnIuB22qeEmJPT-ndT/view?usp=sharing
+
+![image](https://user-images.githubusercontent.com/89954387/139005104-01f67123-71ca-4560-acef-880626ad4a96.png)
+My Qwiic screen broke down right as I was finalizing my rough prototype :(
+The code was all catered to this setup. I still saved it as `distance_alarm1.py`
+
+I had to make a quick work around with a more simplified form of the design, by using an LED.
+The code is in `distance_alarm.py`
+![image](https://user-images.githubusercontent.com/89954387/139005650-ed4c9166-5035-4d08-86da-44e0c21179b8.png)
+
+Final prototype
+![image](https://user-images.githubusercontent.com/89954387/139005752-5e23fd3b-aaa6-4fb2-b396-708c3c4968e6.png)
+
 
 
 LAB PART 2
@@ -274,3 +324,5 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+Recording with the 'final' prototype
+https://drive.google.com/file/d/1w76WWCC8xpE2kodA7OzYPcT9CXbTJPkl/view?usp=sharing
