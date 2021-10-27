@@ -253,11 +253,32 @@ Design Sketch 5
 
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
-- The design for a distance alarm system that 
+- The design for a distance alarm system needs to be light, small, portable.
+- The design is to be used with a computer, so it was ergonomic for the design to be powered by the computer.
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+![image](https://user-images.githubusercontent.com/89954387/139004262-f2ef54cd-2592-49f6-ab18-b217f2903598.png)
+![image](https://user-images.githubusercontent.com/89954387/139004276-3dbf5a44-5d59-4f1e-8845-443fac8c8f80.png)
+![image](https://user-images.githubusercontent.com/89954387/139004185-82b4e0bc-f694-42ec-bc02-2795da6e743d.png)
+
+Materials: Cardboard, paper tape, proximity sensor, LED button, cables, Raspberry Pi 4
+
+Interaction with rough prototype
+https://drive.google.com/file/d/1UmF_Wr7H6-3QozcnIuB22qeEmJPT-ndT/view?usp=sharing
+
+![image](https://user-images.githubusercontent.com/89954387/139005104-01f67123-71ca-4560-acef-880626ad4a96.png)
+My Qwiic screen broke down right as I was finalizing my rough prototype :(
+The code was all catered to this setup. I still saved it as $ python distance_alarm1.py
+
+I had to make a quick work around with a more simplified form of the design, by using an LED.
+The code is in $ python distance_alarm.py
+![image](https://user-images.githubusercontent.com/89954387/139005650-ed4c9166-5035-4d08-86da-44e0c21179b8.png)
+
+Final prototype
+![image](https://user-images.githubusercontent.com/89954387/139005752-5e23fd3b-aaa6-4fb2-b396-708c3c4968e6.png)
+
 
 
 LAB PART 2
@@ -303,3 +324,5 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+Recording with the 'final' prototype
+https://drive.google.com/file/d/1w76WWCC8xpE2kodA7OzYPcT9CXbTJPkl/view?usp=sharing
