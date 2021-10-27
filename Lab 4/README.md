@@ -270,10 +270,10 @@ https://drive.google.com/file/d/1UmF_Wr7H6-3QozcnIuB22qeEmJPT-ndT/view?usp=shari
 
 ![image](https://user-images.githubusercontent.com/89954387/139005104-01f67123-71ca-4560-acef-880626ad4a96.png)
 My Qwiic screen broke down right as I was finalizing my rough prototype :(
-The code was all catered to this setup. I still saved it as $ python distance_alarm1.py
+The code was all catered to this setup. I still saved it as `distance_alarm1.py`
 
 I had to make a quick work around with a more simplified form of the design, by using an LED.
-The code is in $ python distance_alarm.py
+The code is in `distance_alarm.py`
 ![image](https://user-images.githubusercontent.com/89954387/139005650-ed4c9166-5035-4d08-86da-44e0c21179b8.png)
 
 Final prototype
