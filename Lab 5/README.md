@@ -99,6 +99,22 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
+Contours Detection Screenshot
+![1 - Contours](https://user-images.githubusercontent.com/89954387/140847951-ae4b7085-093d-41a9-8e6a-ec9a2b0efe8c.jpg)
+The contour detection may be useful for a mobile app that filters the image being filmed so that only the silhouette appears. The silhouette or the contour lines are useful for measuring geometric aesthetics (i.e. distances and angles between features in the face such as the eyes to the nose, nose to the mouth etc.)
+
+Face Detection Screenshot
+![2 - Face Detection](https://user-images.githubusercontent.com/89954387/140848002-e84a8c01-0ae2-48a3-ac4d-2fbb2efafba1.jpg)
+The face detection is useful for processing through videos to categorize videos according to the number of people that appear in the video. For example, just like Facebook/Instagram has a feature of auto-tagging people, it may be useful to automatically or manually tag other influencers or people with profiles within the platform. That way, people can search videos of influencers that they like according to the name tags.
+
+Flow Detection Screenshot
+![3 - Flow Detection](https://user-images.githubusercontent.com/89954387/140848018-4616a62d-a853-48e9-89e0-491201053c3a.jpg)
+With more precision, this tool could be used to track body movements when testing UX with interactive media (i.e. games, films). A more focused person would move less than a less focused person, and this tool would be able to track this and interpreted as a measure of immersive story telling of the media.
+
+Object Detection Screenshot
+![4 - Object Detection](https://user-images.githubusercontent.com/89954387/140848088-6b2c2c11-e82a-4c92-81b5-6627f2cdebe3.jpg)
+This tool may be useful in quick count of objects, such as in an assemblyline of a factory. A quick check of the number of people in certain rooms or the number of items on a given set may help quality and safety management for production.
+
 
 #### MediaPipe
 
@@ -138,6 +154,10 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
+Hand Pose Detection
+![6 - Hand Pose](https://user-images.githubusercontent.com/89954387/140848216-43fbc824-4125-4359-a1e7-b1c268b9619f.jpg)
+With high-calibre cameras, I can see this being used in stadiums by professional baseball teams to analyze and interpret the hand gestures signalling baseball tactics by other teams' coaches at the dugout.
+
 
 
 #### Teachable Machines
@@ -172,6 +192,13 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
 
+Teachable Machine Screenshots
+![6 - Hand Pose](https://user-images.githubusercontent.com/89954387/140848334-50f770d3-2bee-4fa0-b805-d930898fbcf3.jpg)
+![No Smile](https://user-images.githubusercontent.com/89954387/140848354-4c1e4a6b-aab3-4aca-9ebf-2ca8b2181567.jpg)
+![Smile](https://user-images.githubusercontent.com/89954387/140848369-d005a90a-01e2-4c8f-a447-1c525f964158.jpg)
+Comedy is an area where it can be very hit-and-miss and often the quality of comedy is often judged by how well the audience responds to the comedy content by smiling or laughing. I think directors/producers/actors or even stand-up comedians can make use of this to sharpen their comedy by pre-testing their comedy content in a similar way game developpers pre-test their game UX with participants.
+The Teachable Machine tool adds much flexibility in that anybody can train models to detect for whatever element. The OpenCV or MediaPipe tool feels more rigid pre-defined in the elements that it detects.
+
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
@@ -204,7 +231,7 @@ Try out different interaction outputs and inputs.
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
+1. When does it what it is supposed to do? 
 1. When does it fail?
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
