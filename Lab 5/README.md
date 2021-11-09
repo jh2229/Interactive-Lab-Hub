@@ -225,6 +225,13 @@ This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+![image](https://user-images.githubusercontent.com/89954387/140863997-b8bab20f-c78a-4909-be74-d1df001d0d82.png)
+![No Smile](https://user-images.githubusercontent.com/89954387/140864112-ee7150f0-0245-45de-b052-1aef505b05f7.jpg)
+![Smile](https://user-images.githubusercontent.com/89954387/140864128-9ef168c9-2f96-41ac-87ef-d287574cdbfc.jpg)
+I'm having to record at different angles and lightings and distances. Otherwise, the Teachable Machine tool is not able to sufficiently train to catch for all the idiosyncratic ways a human expresses emotions.
+
+For example, my facial expressions at that distance (from the picture shown) are classified correctly. However, if I moved just a bit further or closer from that distance, the model misclassifies my expression as a smile. Maybe it's just that I am terrible at smiling, which is very possible, in which case, my trained model would have learned my human error.
+Assuming that I am a sufficiently good enough "model" for training my model, then by recording from different angles, lightings, and turns of the visage, the model will be more prepared to detect those 'edge cases'.
 
 ### Part C
 ### Test the interaction prototype
@@ -257,9 +264,11 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel? Hopefully all smiles when the participant smiles
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+https://drive.google.com/file/d/1Y7tzryWuQJhexR7hA7IYmPTbATwwTosM/view?usp=sharing
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+https://drive.google.com/file/d/1LZO-q7IUpEY-Tlytw00G1quqvTp233gY/view?usp=sharing
