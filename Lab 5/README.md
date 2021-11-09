@@ -231,29 +231,30 @@ Try out different interaction outputs and inputs.
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do? 
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it what it is supposed to do? The model is intended to detect a smile on a face.
+1. When does it fail? It fails if the face is not properly lit or if the face is not at the proper distance from the camera.
+1. When it fails, why does it fail? The model may not be sufficiently trained and/or the quality of the webcam does not allow for more detailed cues to be picked up for training. Since the silhouette of a smiling face is harder to delineate against a silhouette of a resting face, the expression is harder to train for, especially with the quality of an ordinary webcam.
+1. Based on the behavior you have seen, what other scenarios could cause problems? 
+If another person or hand features in the screen, the model breaks sometimes, since the model is only trained with my facial expressions.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? No, they would initially not be aware of the uncertainties. They would fully expect the system to work. Ideally, the partcipant would not be made aware of the system, so that their true emotions are displayed.
+1. How bad would they be impacted by a miss classification? This would hurt the meaning of the data being gathered. A film director may mistake the entertainment value of of his/her film based on inaccurate classifcations.
+1. How could change your interactive system to address this? A better trained model may address this. However, a more effective method would be to implement a sensor to measure heart rate or an eye tracking device to gauge the engagement level of the participant with the content being consumed.
+1. Are there optimizations you can try to do on your sense-making algorithm? More background settings, more diverse faces, different angles and lighting. An initial calibration with each participant's resting face would make it easier to detect changes in the facial expressions. Also, a scale of expression intensity may be helpful in order to detect semi-clear expressions such as a grin or a smirk, which are not quite smiles, but still indicators of emotion.
 
 ### Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+* What can you use X for? Use X to detect smiles to judge the comedy value of a content (i.e. audio, video, webtoon).
+* What is a good environment for X? Good lightning with clear and contrasting background to the face, preferrably similar to the training environment.
+* What is a bad environment for X? Dark lighting and poor contrast to the face.
+* When will X break? When the participant is too far or at an awkward angle away from the camera, such that the camera does not have sufficient cues to classify the expression, or when the participant's physical features are not trained for.
+* When it breaks how will X break? Misclassification of the expression
+* What are other properties/behaviors of X? The model will require training of more edge cases, often unexpected.
+* How does X feel? Hopefully all smiles when the participant smiles
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
