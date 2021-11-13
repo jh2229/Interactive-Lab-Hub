@@ -99,6 +99,22 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
+Contours Detection Screenshot
+![1 - Contours](https://user-images.githubusercontent.com/89954387/140847951-ae4b7085-093d-41a9-8e6a-ec9a2b0efe8c.jpg)
+The contour detection may be useful for a mobile app that filters the image being filmed so that only the silhouette appears. The silhouette or the contour lines are useful for measuring geometric aesthetics (i.e. distances and angles between features in the face such as the eyes to the nose, nose to the mouth etc.)
+
+Face Detection Screenshot
+![2 - Face Detection](https://user-images.githubusercontent.com/89954387/140848002-e84a8c01-0ae2-48a3-ac4d-2fbb2efafba1.jpg)
+The face detection is useful for processing through videos to categorize videos according to the number of people that appear in the video. For example, just like Facebook/Instagram has a feature of auto-tagging people, it may be useful to automatically or manually tag other influencers or people with profiles within the platform. That way, people can search videos of influencers that they like according to the name tags.
+
+Flow Detection Screenshot
+![3 - Flow Detection](https://user-images.githubusercontent.com/89954387/140848018-4616a62d-a853-48e9-89e0-491201053c3a.jpg)
+With more precision, this tool could be used to track body movements when testing UX with interactive media (i.e. games, films). A more focused person would move less than a less focused person, and this tool would be able to track this and interpreted as a measure of immersive story telling of the media.
+
+Object Detection Screenshot
+![4 - Object Detection](https://user-images.githubusercontent.com/89954387/140848088-6b2c2c11-e82a-4c92-81b5-6627f2cdebe3.jpg)
+This tool may be useful in quick count of objects, such as in an assemblyline of a factory. A quick check of the number of people in certain rooms or the number of items on a given set may help quality and safety management for production.
+
 
 #### MediaPipe
 
@@ -138,6 +154,10 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
+Hand Pose Detection
+![6 - Hand Pose](https://user-images.githubusercontent.com/89954387/140848216-43fbc824-4125-4359-a1e7-b1c268b9619f.jpg)
+With high-calibre cameras, I can see this being used in stadiums by professional baseball teams to analyze and interpret the hand gestures signalling baseball tactics by other teams' coaches at the dugout.
+
 
 
 #### Teachable Machines
@@ -172,6 +192,13 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
 
+Teachable Machine Screenshots
+![6 - Hand Pose](https://user-images.githubusercontent.com/89954387/140848334-50f770d3-2bee-4fa0-b805-d930898fbcf3.jpg)
+![No Smile](https://user-images.githubusercontent.com/89954387/140848354-4c1e4a6b-aab3-4aca-9ebf-2ca8b2181567.jpg)
+![Smile](https://user-images.githubusercontent.com/89954387/140848369-d005a90a-01e2-4c8f-a447-1c525f964158.jpg)
+Comedy is an area where it can be very hit-and-miss and often the quality of comedy is often judged by how well the audience responds to the comedy content by smiling or laughing. I think directors/producers/actors or even stand-up comedians can make use of this to sharpen their comedy by pre-testing their comedy content in a similar way game developpers pre-test their game UX with participants.
+The Teachable Machine tool adds much flexibility in that anybody can train models to detect for whatever element. The OpenCV or MediaPipe tool feels more rigid pre-defined in the elements that it detects.
+
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
@@ -198,40 +225,50 @@ This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+![image](https://user-images.githubusercontent.com/89954387/140863997-b8bab20f-c78a-4909-be74-d1df001d0d82.png)
+![No Smile](https://user-images.githubusercontent.com/89954387/140864112-ee7150f0-0245-45de-b052-1aef505b05f7.jpg)
+![Smile](https://user-images.githubusercontent.com/89954387/140864128-9ef168c9-2f96-41ac-87ef-d287574cdbfc.jpg)
+I'm having to record at different angles and lightings and distances. Otherwise, the Teachable Machine tool is not able to sufficiently train to catch for all the idiosyncratic ways a human expresses emotions.
+
+For example, my facial expressions at that distance (from the picture shown) are classified correctly. However, if I moved just a bit further or closer from that distance, the model misclassifies my expression as a smile. Maybe it's just that I am terrible at smiling, which is very possible, in which case, my trained model would have learned my human error.
+Assuming that I am a sufficiently good enough "model" for training my model, then by recording from different angles, lightings, and turns of the visage, the model will be more prepared to detect those 'edge cases'.
 
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it what it is supposed to do? The model is intended to detect a smile on a face.
+1. When does it fail? It fails if the face is not properly lit or if the face is not at the proper distance from the camera.
+1. When it fails, why does it fail? The model may not be sufficiently trained and/or the quality of the webcam does not allow for more detailed cues to be picked up for training. Since the silhouette of a smiling face is harder to delineate against a silhouette of a resting face, the expression is harder to train for, especially with the quality of an ordinary webcam.
+1. Based on the behavior you have seen, what other scenarios could cause problems? 
+If another person or hand features in the screen, the model breaks sometimes, since the model is only trained with my facial expressions.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? No, they would initially not be aware of the uncertainties. They would fully expect the system to work. Ideally, the partcipant would not be made aware of the system, so that their true emotions are displayed.
+1. How bad would they be impacted by a miss classification? This would hurt the meaning of the data being gathered. A film director may mistake the entertainment value of of his/her film based on inaccurate classifcations.
+1. How could change your interactive system to address this? A better trained model may address this. However, a more effective method would be to implement a sensor to measure heart rate or an eye tracking device to gauge the engagement level of the participant with the content being consumed.
+1. Are there optimizations you can try to do on your sense-making algorithm? More background settings, more diverse faces, different angles and lighting. An initial calibration with each participant's resting face would make it easier to detect changes in the facial expressions. Also, a scale of expression intensity may be helpful in order to detect semi-clear expressions such as a grin or a smirk, which are not quite smiles, but still indicators of emotion.
 
 ### Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+* What can you use X for? Use X to detect smiles to judge the comedy value of a content (i.e. audio, video, webtoon).
+* What is a good environment for X? Good lightning with clear and contrasting background to the face, preferrably similar to the training environment.
+* What is a bad environment for X? Dark lighting and poor contrast to the face.
+* When will X break? When the participant is too far or at an awkward angle away from the camera, such that the camera does not have sufficient cues to classify the expression, or when the participant's physical features are not trained for.
+* When it breaks how will X break? Misclassification of the expression
+* What are other properties/behaviors of X? The model will require training of more edge cases, often unexpected.
+* How does X feel? Hopefully all smiles when the participant smiles
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+https://drive.google.com/file/d/1Y7tzryWuQJhexR7hA7IYmPTbATwwTosM/view?usp=sharing
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+https://drive.google.com/file/d/1LZO-q7IUpEY-Tlytw00G1quqvTp233gY/view?usp=sharing
