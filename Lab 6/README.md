@@ -155,13 +155,15 @@ Find at least one class (more are okay) partner, and design a distributed applic
 Partner: Nicholas Burka (nab262)
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
--Our design is a morse code communicator, a bit like a pager. Morse code has become so obsolete in the online communication realm that it is virtually unrecognizable as a means of communication. Something like this could still be in use in an undercover or investigative mission, where someone in the midst of people can still send short messages to his/her teammates without being conspicuous. For example, someone could put this device in his pocket and have his hands in his pocket and use it without being suspected. Also, because it is not a phone, a proper disguise of the device could make it such that even if caught, the device still might not catch special attention.
-- On the other hand, the device can be used between people who know morse code, visually or audibly impaired, or both.
 
+-Our design is a morse code communicator, a bit like a pager. Morse code has become so obsolete in the online communication realm that it is virtually unrecognizable as a means of communication. Something like this could still be in use in an undercover or investigative mission, where someone in the midst of people can still send short messages to his/her teammates without being conspicuous. For example, someone could put this device in his pocket and have his hands in his pocket and use it without being suspected. Also, because it is not a phone, a proper disguise of the device could make it such that even if caught, the device still might not catch special attention.
+- On the other hand, the device can be used between people who know morse code, visually or audibly impaired, or both. This would definitely increase accessibility for this device. In that aspect, communication barriers can be broken, especially with the visually impaired people, since they would still be able to sense the vibrations of the morse code (as long as they know morse code).
+ 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
--This device is not meant to be an obvious device to be recognized for use. Also, it would require a pair of these devices to start recognizing the utility of these devices. If this device is to 
+
+-This device is not meant to be an obvious device to be recognized for use. Also, it would require a pair of these devices to start recognizing the utility of these devices. However, that is the point. The device is meant to be covert, and meant to be used by people who at least know morse code.
 
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
