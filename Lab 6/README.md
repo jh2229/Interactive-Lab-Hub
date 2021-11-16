@@ -85,6 +85,11 @@ Once connected, you should be able to see all the messages under the IDD topic. 
   ```
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
+1. Battleship Game: This could be a way of playing the game Battleship. There could be two screens connected to the Pi (i.e. Qwiic screen and the MiniPiTFT): one screen for my battleship area and the other screen for the opponent areas that I target.
+3. Color/Light/Music Messenger: This could be
+4. Pokemon battles:
+5. Pager
+6. Morse Code Messenger
 
 ### Part C
 ### Streaming a Sensor
@@ -147,7 +152,10 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
+Partner: Nicholas Burka (nab262)
+
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+Our design is a morse code communicator, a bit like a pager. Morse code has become so obsolete in the online communication realm that it is virtually unrecognizable as a means of communication. Something like this could still be in use in an undercover or investigative mission, where someone in the midst of people can still send short messages to his/her teammates without being conspicuous. For example, someone could put this device in his pocket and have his hands in his pocket and use it without being suspected. Also, because it is not a phone, a proper disguise of the device could make it such that even if caught, the device still might not catch special attention.
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
