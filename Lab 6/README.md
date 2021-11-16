@@ -86,6 +86,12 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. Battleship Game: This could be a way of playing the game Battleship. There could be two screens connected to the Pi (i.e. Qwiic screen and the MiniPiTFT): one screen for my battleship area and the other screen for the opponent areas that I target.
+3. Color/Light/Music Messenger: This could be a way to communicate moods using color, light, or music (using a microphone and speaker).
+4. Pokemon battles: Each user may engage in pokemon battles with our own pokemon and pokemon moves.
+5. Pager: The messaging system could bring back the pager that people used to use in the 20th century. It was even more portable than the phones we have today.
+6. Morse Code Messenger: An undercover communication system that could utilize morse code as the means of communication. This could be useful especially because morse code is practically obsolete and many machine learning algorithms are focusing on speech. A morse code messenger could slide under such detection mechanisms for communication.
+
 ### Part C
 ### Streaming a Sensor
 
@@ -120,7 +126,7 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 https://drive.google.com/file/d/1-r3jAgCfVgduQDj-lSbgJ7EPwTA8LNUG/view?usp=sharing
-
+Code:https://github.com/jh2229/Interactive-Lab-Hub/blob/Fall2021/Lab%206/color1.py
 
 ### Part E
 @@ -154,19 +157,23 @@ Find at least one class (more are okay) partner, and design a distributed applic
@@ -144,6 +150,6 @@ Partner: Nicholas Burka (nab262)
 
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
-
+Code:https://github.com/jh2229/Interactive-Lab-Hub/blob/Fall2021/Lab%206/color1.py
 https://drive.google.com/file/d/1-EBcDk5_nUIgoP_pTxge7773yPgmSDHO/view?usp=sharing
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
