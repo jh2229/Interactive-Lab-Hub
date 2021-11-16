@@ -111,9 +111,11 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+![Twizzler Streaming](https://user-images.githubusercontent.com/89954387/141907805-e292fdec-6f0f-4b84-aeb7-d09ce748ee7d.jpg)
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
-
+![MorseCode Streaming (Joystick)](https://user-images.githubusercontent.com/89954387/141908074-439bf09a-704e-4a3d-9ddf-7e0fd9c48074.jpg)
+With Joystick
 
 ### Part D
 ### The One True ColorNet
@@ -145,6 +147,7 @@ You may ask "but what if I missed class?" Am I not admitted into the collective 
 Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs. Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
+https://drive.google.com/file/d/1-r3jAgCfVgduQDj-lSbgJ7EPwTA8LNUG/view?usp=sharing
 
 
 ### Part E
@@ -154,12 +157,16 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 Partner: Nicholas Burka (nab262)
 
+
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
 -Our design is a morse code communicator, a bit like a pager. Morse code has become so obsolete in the online communication realm that it is virtually unrecognizable as a means of communication. Something like this could still be in use in an undercover or investigative mission, where someone in the midst of people can still send short messages to his/her teammates without being conspicuous. For example, someone could put this device in his pocket and have his hands in his pocket and use it without being suspected. Also, because it is not a phone, a proper disguise of the device could make it such that even if caught, the device still might not catch special attention.
 - On the other hand, the device can be used between people who know morse code, visually or audibly impaired, or both. This would definitely increase accessibility for this device. In that aspect, communication barriers can be broken, especially with the visually impaired people, since they would still be able to sense the vibrations of the morse code (as long as they know morse code). 
  
+ 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+![image](https://user-images.githubusercontent.com/89954387/141905440-204186b9-3618-49b1-a88e-4e5f1dc6816a.png)
+
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
@@ -167,6 +174,6 @@ Partner: Nicholas Burka (nab262)
 
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
-
+https://drive.google.com/file/d/1-EBcDk5_nUIgoP_pTxge7773yPgmSDHO/view?usp=sharing
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
